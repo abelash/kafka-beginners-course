@@ -18,7 +18,7 @@ fun learning!
 
 # producing to a non existing topic
 kafka-console-producer --broker-list 127.0.0.1:9092 --topic new_topic
-hello world!
+hello worl
 
 # our new topic only has 1 partition
 kafka-topics --zookeeper 127.0.0.1:2181 --list
